@@ -103,15 +103,18 @@
 ### request
 - POST: http://project.loc/api/user/
 - example:
+```
 {
     "name": "Tadeusz P",
     "email": "email@loc",
     "password": "difficult_password"
 }
+```
 ## authorization
 ### request
 - POST: http://project.loc/oauth/token
 - example
+```
 {
     "grant_type": "password",
     "client_id": 2,
@@ -120,5 +123,6 @@
     "password": "password",
     "scope":""
 }
+```
     
     
