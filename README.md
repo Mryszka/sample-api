@@ -46,6 +46,7 @@
 ### response
 - show softly deleted user's data
 - example response:
+```
 {
     "data": [
         {
@@ -68,6 +69,7 @@
         }
     ]
 }
+```
 ## get user data
 ### request
 - GET: http://project.loc/api/user/[userID]
