@@ -78,6 +78,7 @@
 ### response
 - don't show softly deleted user's
     - example response:
+    ```
     {
         "id": 2,
         "name": "Theodor Kowalski",
@@ -87,6 +88,7 @@
         "updated_at": "2022-12-10T22:33:15.000000Z",
         "deleted_at": null
     }
+    ```
 ## edit some user's data
 ### request
 - you can edit data like:
